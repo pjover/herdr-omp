@@ -31,7 +31,7 @@ for bin in herdr omp; do
   }
 done
 
-session=${1:-$(basename "$(pwd -P)" | tr -c 'A-Za-z0-9_.-\n' '-')}
+session=${1:-$(basename "$(pwd -P)" | tr -c 'A-Za-z0-9_.\n-' '-')}
 h() { herdr --session "$session" "$@"; }
 
 # Brand-new session: the client below starts a detached server and opens a

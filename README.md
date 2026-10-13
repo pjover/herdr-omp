@@ -19,9 +19,9 @@ background.
 
 | Tool | Tested with | Install |
 |---|---|---|
-| [Herdr](https://herdr.dev) | 0.9.3 | `curl -fsSL https://herdr.dev/install.sh \| sh` ([other methods](https://herdr.dev/docs/install/)) |
-| [omp](https://github.com/can1357/oh-my-pi) | 18.10.3 | `curl -fsSL https://omp.sh/install \| sh` |
-| POSIX `sh`, `awk`, `sed`, `tr` | macOS 27 | preinstalled on macOS and Linux |
+| [Herdr](https://herdr.dev) | 0.9.2, 0.9.3 | `curl -fsSL https://herdr.dev/install.sh \| sh` ([other methods](https://herdr.dev/docs/install/)) |
+| [omp](https://github.com/can1357/oh-my-pi) | 18.10.2, 18.10.3 | `curl -fsSL https://omp.sh/install \| sh` |
+| POSIX `sh`, `awk`, `sed`, `tr` | macOS 27 (BSD tools), Arch Linux ARM (GNU tools, `sh` = bash) | preinstalled on macOS and Linux |
 
 Optional:
 
